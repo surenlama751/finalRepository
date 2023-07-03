@@ -1,0 +1,239 @@
+.about-main{
+    background-image: white;
+    margin-top:2px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-left:102px;
+    margin-top:50px;
+    padding-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    
+}
+.information-about{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+#about-me{
+    font-weight: bold;
+    font-size: 30px;
+    color:rgb(82, 78, 78);
+}
+#roles1{
+    font-weight: bold;
+    font-size: 25px;
+    color:rgb(82, 78, 78);
+}
+#place{
+    font-weight: bold;
+    font-size: 25px;
+    color:rgb(82, 78, 78);
+    
+}
+
+.about-most-info{
+    display:flex;
+    flex:3;
+}
+#border{
+    border:4px solid black;
+    width:450px;
+    height:450px;
+    border-radius:30%;
+    border-color:rgb(236, 155, 155);
+}
+#about-profile-pic{
+    width:400px;
+    height:400px;
+    border-radius: 30%;
+    margin-top:25px;
+    
+   
+}
+.about-picture{
+    width:400px;
+    height:400px;
+    flex:1;
+    border-radius: 30%;
+    margin-left:60px;
+}
+.about-most-info{
+    display:flex;
+    flex:1;
+    margin-top:70px;
+    margin-left:40px;
+}
+#biography{
+    color:rgb(167, 162, 162);
+    font-size: 10px;
+    
+    
+    
+   
+}
+#about-first-sen{
+    color:black;
+    font-size: 15px;
+    margin-top:10px;
+    
+    
+    
+}
+#contact1{
+    color:rgb(167, 162, 162);
+    font-size: 10px;
+}
+#about-second-sen{
+    color:black;
+    font-size: 15px;
+    margin-top:10px;
+   
+}
+#services{
+    color:rgb(167, 162, 162);
+    font-size: 10px; 
+}
+#about-third-sen{
+    color:black;
+    font-size: 15px;
+    margin-top:10px;
+}
+.about-third-column{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+#years{
+    color:rgb(167, 162, 162);
+    font-size: 10px;
+}
+#first-skills{
+    color:black;
+    font-size: 15px;
+    margin-top:10px;
+}
+#satisfaction{
+    color:rgb(167, 162, 162);
+    font-size: 10px;
+}
+#second-skills{
+    color:black;
+    font-size: 15px;
+    margin-top:10px;
+}
+#countries{
+    color:rgb(167, 162, 162);
+    font-size: 10px; 
+}
+#third-skills{
+    color:black;
+    font-size: 15px;
+    margin-top:10px;
+}
+#projects-done{
+    color:rgb(167, 162, 162);
+    font-size: 10px; 
+}
+#fourth-skills{
+    color:black;
+    font-size: 15px;
+    margin-top:10px;
+}
+.first-about-column{
+    margin-top:50px;
+}
+.about-third-column{
+    margin-top:60px;
+    margin-left:-20px;
+}
+.tech-skills{
+    font-size:50px;
+    display: flex;
+    gap:100px;
+    justify-content: center;
+    margin-top:100px;
+}
+#html{
+    color:orange;
+}
+#css{
+    color:skyblue;
+}
+#js{
+    color:rgb(211, 211, 26);
+}
+#react{
+    color:skyblue;
+}
+#node{
+    color:lightgreen
+}
+
+#html:hover{
+    
+    border-radius: 50%;
+    box-shadow: 2px 0 0 2px red;
+}
+#css:hover{
+    border-radius: 50%;
+    box-shadow: 2px 0 0 2px red;
+}
+#js:hover{
+    border-radius: 50%;
+    box-shadow: 2px 0 0 2px red;
+}
+#react:hover{
+    border-radius: 50%;
+    box-shadow: 2px 0 0 2px red;
+}
+#node:hover{
+    border-radius: 50%;
+    box-shadow: 2px 0 0 2px red;
+}
+@media screen and (max-width: 768px){
+    .about-picture{
+        margin-top:-40px;
+        margin-left:-100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #border{
+        width:250px;
+        height:350px;
+        align-items: center;
+    }
+    #about-profile-pic{
+        width:200px;
+        height:300px;
+        align-items: center;
+    }
+    .first-about-column{
+        margin-top:380px;
+        
+    }
+    .about-third-column{
+        margin-top:380px;
+        display: flex;
+        
+        
+    }
+    .information-about{
+        display:flex;
+        margin-left:50px;
+
+    }
+    .tech-skills{
+        gap:10px;
+        display:flex;
+        flex-direction: column;
+        margin-top:-850px;
+        padding-bottom:600px;
+        margin-left:20px;
+    }
+    .first-about-column{
+        margin-left:-10px;
+    }
+}

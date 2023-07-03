@@ -1,0 +1,106 @@
+
+
+#logo{
+    width:100px;
+    height:100px;
+    display:flex;
+    position: fixed;
+    z-index:4;
+   
+    
+    
+}
+.pages{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: black;
+    padding:0;
+    gap:15px;
+    float:left;
+    width:100px;
+    margin-top:0;
+    position: fixed;
+    height:100%;
+    padding-top:200px;
+    z-index:3;
+
+    
+    
+ 
+}
+
+.res-bar{
+    display:flex;
+    margin-left:25px;
+    margin-top:250px;
+    position: fixed;
+    justify-content: space-between;
+   
+
+    
+    
+   
+}
+
+.open-menu1{
+    width:100%;
+    position:fixed;
+    font-size:35px;
+    margin-top:-250px;
+    text-decoration: none;
+    color:red;
+}
+.open-menu2{
+    width:100%;
+    position:fixed;
+    font-size:35px;
+    margin-top:-200px;
+    text-decoration: none;
+    color:red;
+}
+.open-menu3{
+    width:100%;
+    position:fixed;
+    font-size:35px;
+    margin-top:-150px;
+    text-decoration: none;
+    color:red;
+}
+
+
+#btn-bar{
+   position: absolute;
+   border:none;
+   width:50px;
+   height:50px;
+   font-size:25px;
+   background:transparent;
+   color:white;
+   display:none;
+}
+
+#btn-bar:hover{
+    color:red;
+    cursor: pointer;
+}
+
+
+
+.nav-pages{
+    color:white;
+    text-decoration: none;
+    display:flex;
+   
+}
+.nav-pages:hover{
+    color:red;
+    cursor: pointer;
+}
+.open-menu{
+    gap:20px;
+  
+}
+.main-navbar{
+    font-family: 'Playfair Display', serif;
+}

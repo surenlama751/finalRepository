@@ -1,0 +1,138 @@
+.contact-main{
+    
+    background-color:rgb(221, 160, 160);
+    display:flex;
+    justify-content: center;
+    width:900px;
+    height:400px;
+    margin-left:350px;
+    margin-top:100px
+    
+    
+    
+}
+
+.container{
+    background-color: rgb(192, 187, 187);
+    margin-top:20px;
+    display:flex;
+    height:350px;
+    
+    flex:2;
+    margin-left:20px;
+
+    
+
+
+}
+
+#head-line{
+    display:flex;
+    justify-content: center;
+    font-size:30px;
+    font-weight: bold;
+
+}
+.contact-first-column{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+    float: left;
+    margin-left:20px;
+    font-size:32px;
+}
+
+
+.contact-second-column{
+    display:flex;
+    flex:1;
+    margin-left:50px;
+    background-image: url('./contact.jpeg');
+    height:300px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    flex-direction: column;
+    width:600px;
+   
+    
+   
+    
+}
+.contact-image{
+    display:flex;
+    margin-left:50px;
+    position:absolute;
+
+}
+#contact-btn{
+width:100px;
+height:25px;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+.contact-first-column button{
+    margin-left:40px;
+}
+
+#contact22{
+    display:flex;
+    color:rgb(144, 138, 138);
+    font-size:10px;
+    margin-top:75px;
+    justify-content: center;
+    margin-left:20px;
+}
+#company-email{
+    margin-top:10px;
+    color:black;
+    font-size:12px;
+    display:flex
+    
+
+}
+#contact33{
+    display:flex;
+    color:rgb(144, 138, 138);
+    font-size:10px;
+    margin-top:15px;
+    justify-content: center;
+    margin-left:-28px;
+}
+#arearegion{
+    margin-top:10px;
+    color:black;
+    font-size:12px;
+    display:flex
+    
+}
+
+.contact-social-icons{
+    display: flex;
+    margin-top:70px;
+    font-size:32px;
+    gap:5px;
+    justify-content: center;
+    padding-bottom:100px;
+}
+.space{
+    display:flex;
+    margin-left:20px;
+}
+
+#html1{
+    color:orange;
+}
+#css1{
+    color:skyblue;
+}
+#js1{
+    color:rgb(211, 211, 26);
+}
+#react1{
+    color:skyblue;
+}
+#node1{
+    color:lightgreen
+}
